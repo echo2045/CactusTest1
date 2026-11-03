@@ -6,6 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/VoiceGame/AudioEdition/Menu.unity
+    guid: 858751f7b7575784e940982812e2c923
+  - enabled: 1
+    path: Assets/VoiceGame/VoiceGame.unity
+    guid: 349522641903b4f4a93d4b424227ff4e
+  - enabled: 1
+    path: Assets/VoiceGame/AudioEdition/AudioGame.unity
+    guid: 1d627781962b651479d7e60dbb9fc12e
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:

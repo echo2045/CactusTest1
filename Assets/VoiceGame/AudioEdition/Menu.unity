@@ -1,0 +1,704 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 10
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 2
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 2
+    m_PVRDenoiserTypeIndirect: 2
+    m_PVRDenoiserTypeAO: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 1
+    m_PVRFilteringGaussRadiusAO: 1
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 3
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    buildHeightMesh: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &402864157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 402864162}
+  - component: {fileID: 402864161}
+  - component: {fileID: 402864160}
+  - component: {fileID: 402864159}
+  - component: {fileID: 402864158}
+  m_Layer: 0
+  m_Name: Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &402864158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402864157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cfa86ae95e100643aedd3d8f43b6e04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceGame.GameMenu
+  brain: {fileID: 402864161}
+  narrator: {fileID: 402864160}
+  mic: {fileID: 402864159}
+--- !u!114 &402864159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402864157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bced6fa3a94f438498fea4f547f0067b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceGame.HandsFreeMic
+  brain: {fileID: 402864161}
+  narrator: {fileID: 402864160}
+--- !u!114 &402864160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402864157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31c5ce66a347b1d4a9cd6527859d6f43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceGame.Narrator
+  lines:
+  - id: menu_welcome
+    text: Welcome to Sentinel. Choose how you want to play.
+    clip: {fileID: 8300000, guid: 5711832b2203d474ea669562d0e8d89b, type: 3}
+  - id: menu_option1
+    text: Option one, Voice Control. You watch the screen and command the hero with your voice. This is for players who cannot use a keyboard or controller.
+    clip: {fileID: 8300000, guid: a0a71ca5c9d04254cb9d1f2d901d97fa, type: 3}
+  - id: menu_option2
+    text: Option two, Audio Game. Everything is told through sound, so you can play without seeing the screen. This is for blind players.
+    clip: {fileID: 8300000, guid: 6af9f9f89ce85154abf549e03ef1f811, type: 3}
+  - id: menu_option3
+    text: Option three, Settings. Change the volume.
+    clip: {fileID: 8300000, guid: c13dc33ad346c3841b15c726a29316ac, type: 3}
+  - id: menu_how
+    text: Say one, two, or three. Or press the one, two, or three key.
+    clip: {fileID: 8300000, guid: 141d08d4e5ad78c4e8f4cbd99372d3a4, type: 3}
+  - id: menu_start1
+    text: Starting Voice Control.
+    clip: {fileID: 8300000, guid: 03f19e725a7d91e4185e3dc54b8c0a81, type: 3}
+  - id: menu_start2
+    text: Starting the Audio Game.
+    clip: {fileID: 8300000, guid: 8a2ea3fd8d2b849469657f300863daa6, type: 3}
+  - id: menu_unclear
+    text: Sorry, I did not catch that. Say one, two, three, or repeat.
+    clip: {fileID: 8300000, guid: 458e653f03cc708468b3d370fb44492b, type: 3}
+  - id: settings_title
+    text: You are in settings.
+    clip: {fileID: 8300000, guid: 072f1c85186b27944b1e3c6f2902e623, type: 3}
+  - id: settings_back_how
+    text: Say back to return to the menu.
+    clip: {fileID: 8300000, guid: 5494fc135717c074694d6f9a743c3f20, type: 3}
+  - id: settings_unclear
+    text: Sorry, I did not catch that. Say louder, quieter, or back.
+    clip: {fileID: 8300000, guid: 9e8035b076fabc54d8bbf066f35da539, type: 3}
+  - id: volume_how
+    text: To change the volume, say louder or quieter, or press the up and down arrow keys. You can also say a number, like volume fifty.
+    clip: {fileID: 8300000, guid: b4a17bf0b0ec19a4bbfcaf23b909bb8d, type: 3}
+  - id: volume_max
+    text: That is the loudest setting.
+    clip: {fileID: 8300000, guid: 9bb0c1d4a8053384eb4a37f8ab4f7d31, type: 3}
+  - id: volume_min
+    text: That is the quietest setting.
+    clip: {fileID: 8300000, guid: d74ff37a9a897f449a6c0ec33f7e4e57, type: 3}
+  - id: volume_10
+    text: Volume ten percent.
+    clip: {fileID: 8300000, guid: 92dc62594551d554984f39b7011498b6, type: 3}
+  - id: volume_20
+    text: Volume twenty percent.
+    clip: {fileID: 8300000, guid: 8e19e0e8baa38e54e81ee047989713e1, type: 3}
+  - id: volume_30
+    text: Volume thirty percent.
+    clip: {fileID: 8300000, guid: cc764fc80cbf3234e96d983bbc959df1, type: 3}
+  - id: volume_40
+    text: Volume forty percent.
+    clip: {fileID: 8300000, guid: 07c75065e62783b45b49d9f7b5ee02aa, type: 3}
+  - id: volume_50
+    text: Volume fifty percent.
+    clip: {fileID: 8300000, guid: 4ce3793e689b2914089419ca6cec7a03, type: 3}
+  - id: volume_60
+    text: Volume sixty percent.
+    clip: {fileID: 8300000, guid: 36edacca56849334f80e4b5dfa8a2dad, type: 3}
+  - id: volume_70
+    text: Volume seventy percent.
+    clip: {fileID: 8300000, guid: 79fec8831eb06214493c1b45c25fa396, type: 3}
+  - id: volume_80
+    text: Volume eighty percent.
+    clip: {fileID: 8300000, guid: 5c932b394600f3c4a9cb60f0b75510f7, type: 3}
+  - id: volume_90
+    text: Volume ninety percent.
+    clip: {fileID: 8300000, guid: de4581b89798a6749b1ca555b02ea7fc, type: 3}
+  - id: volume_100
+    text: Volume one hundred percent.
+    clip: {fileID: 8300000, guid: 690057c7eedf7314c9878d0887b0670b, type: 3}
+  - id: intro_welcome
+    text: Welcome to the Audio Game. You do not need the screen. Everything you need will be spoken or played as a sound. To skip this introduction, hold the space bar and say skip.
+    clip: {fileID: 8300000, guid: 16b70ecf92f9afb4ea584f4dbddcd12e, type: 3}
+  - id: intro_talk
+    text: Here is how to talk to your hero. Hold down the space bar, say a command, then let go. You will hear this sound when the game starts listening.
+    clip: {fileID: 8300000, guid: 0dc47cd405814dd43a7a3f62d0966f5f, type: 3}
+  - id: intro_talk_off
+    text: And this sound when it stops listening.
+    clip: {fileID: 8300000, guid: f4296cd605afc034195f0aca1d8681ca, type: 3}
+  - id: intro_mic
+    text: If the game does not hear you, press the M key to try another microphone.
+    clip: {fileID: 8300000, guid: a751684f9a16b4441bb5aa61b5bb86db, type: 3}
+  - id: intro_goal
+    text: You are trapped in a courtyard, and you must escape. First, go to the chest, and jump to grab the key floating above it. Then go to the gate to get out.
+    clip: {fileID: 8300000, guid: ca4a33065cf6240498515b87bba4632e, type: 3}
+  - id: intro_places
+    text: There are four places you can name. The chest, the tower, the bridge, and the gate. You never need to steer. Name a place, and the hero finds the way.
+    clip: {fileID: 8300000, guid: 4e8b0e228072d9d4aacbc4a07c4eaa71, type: 3}
+  - id: intro_moves
+    text: To move, say run to, or walk to, and then a place. For example, run to the chest. Running is fast, and walking is slow. You can also join commands, like, run to the chest and jump.
+    clip: {fileID: 8300000, guid: 6a2e1a73fb8bdbd46b807e3765656fa2, type: 3}
+  - id: intro_actions
+    text: You can also say jump, stop, crouch, and stand up.
+    clip: {fileID: 8300000, guid: e80af92286546194dad0ade7a0698e59, type: 3}
+  - id: intro_eye
+    text: A giant eye called the Sentinel sits on top of the tower. If it sees you moving while it is open, you go back to the start and lose a life. You have three lives.
+    clip: {fileID: 8300000, guid: 004c351cc7e8ee14ba89e0f20748445d, type: 3}
+  - id: intro_crouch
+    text: The eye cannot see you while you crouch, even when you move, but crouching is slow. Say crouch, then walk to a place. Running makes you stand up again.
+    clip: {fileID: 8300000, guid: 5b5e1b7432d89f24b8e677cb8574295c, type: 3}
+  - id: intro_tower
+    text: If you reach the tower, you jam the eye, and it goes blind for fifteen seconds. This only works once each round.
+    clip: {fileID: 8300000, guid: d7e0ad38abeb50241acb40fe8133a4b2, type: 3}
+  - id: cues_intro
+    text: Now learn the three sounds of the eye. Green, yellow, and red. One of these sounds plays all through the game, so you always know if it is safe to move.
+    clip: {fileID: 8300000, guid: ed2449f7c01de2248a2b107fd6236f35, type: 3}
+  - id: cue_green
+    text: Green means the eye is asleep. You are safe to move. Green sounds like this.
+    clip: {fileID: 8300000, guid: d41d8538754e62c42a9601933e1cc760, type: 3}
+  - id: cue_yellow
+    text: Yellow means the eye is opening. You have about two seconds. Say stop, or say crouch. Yellow sounds like this.
+    clip: {fileID: 8300000, guid: 6aa4d77b0f026a7459f43100a0737a50, type: 3}
+  - id: cue_red
+    text: Red means the eye is watching. Do not move until the sound changes. Red sounds like this.
+    clip: {fileID: 8300000, guid: 341b412a423cd1d45994563ba77ced85, type: 3}
+  - id: cues_review
+    text: Let's review.
+    clip: {fileID: 8300000, guid: 5f4f84b853032904c9b2125b72be6562, type: 3}
+  - id: review_green
+    text: Green. It is safe to move.
+    clip: {fileID: 8300000, guid: 3a24b2088300a3444bafd92277b01991, type: 3}
+  - id: review_yellow
+    text: Yellow. Say stop.
+    clip: {fileID: 8300000, guid: 3be13a58742c6a945b415b46f20667a2, type: 3}
+  - id: review_red
+    text: Red. Do not move.
+    clip: {fileID: 8300000, guid: b5f309a9fd0a9b24cb2b6b2b44f8dce6, type: 3}
+  - id: intro_meta
+    text: During the game, say help to hear the rules, sounds to hear these sounds again, where am I to hear where you are, or menu to go back to the main menu. To change the volume, say louder or quieter, or press the up and down arrow keys.
+    clip: {fileID: 8300000, guid: e27d2b455efbe2940bf47f6a14242bf6, type: 3}
+  - id: intro_ready
+    text: That is everything. When you are ready, hold the space bar and say start.
+    clip: {fileID: 8300000, guid: 48fa7d1e318199746b0732a51ea10b59, type: 3}
+  - id: waiting_hint
+    text: Hold the space bar and say start when you are ready.
+    clip: {fileID: 8300000, guid: 6f1e34d6ff67b084998fa63a41b14ab8, type: 3}
+  - id: game_go
+    text: The game has begun. Your first goal is the chest.
+    clip: {fileID: 8300000, guid: 66f615726dd5d2f4f87acc71a91ac272, type: 3}
+  - id: restart
+    text: Starting again. Your first goal is the chest.
+    clip: {fileID: 8300000, guid: 6c5b6801d913b4147b4f5ab8f70ec264, type: 3}
+  - id: back_to_game
+    text: Back to the game.
+    clip: {fileID: 8300000, guid: ffddb6324d1064c4e8b719205e667a56, type: 3}
+  - id: run_chest
+    text: Running to the chest.
+    clip: {fileID: 8300000, guid: c6d91bbb5e7799d40b34d948cad3f2fd, type: 3}
+  - id: run_tower
+    text: Running to the tower.
+    clip: {fileID: 8300000, guid: c11243b54ff24284eb18ddb91ee5178c, type: 3}
+  - id: run_bridge
+    text: Running to the bridge.
+    clip: {fileID: 8300000, guid: 2898bd5de2ddb6143a3898510e82b8ae, type: 3}
+  - id: run_gate
+    text: Running to the gate.
+    clip: {fileID: 8300000, guid: 05b4dc6c51e38f9479132ebe6c3234de, type: 3}
+  - id: walk_chest
+    text: Walking to the chest.
+    clip: {fileID: 8300000, guid: 68082d33435138642a5cba6f91c7dfc6, type: 3}
+  - id: walk_tower
+    text: Walking to the tower.
+    clip: {fileID: 8300000, guid: bcf5cd1185ede50488034d2578f5709d, type: 3}
+  - id: walk_bridge
+    text: Walking to the bridge.
+    clip: {fileID: 8300000, guid: f5f23ce15d8fe7145a92c5185e66c753, type: 3}
+  - id: walk_gate
+    text: Walking to the gate.
+    clip: {fileID: 8300000, guid: da4ace6d25f57ab46bcf821a58cf1472, type: 3}
+  - id: stopping
+    text: Stopping.
+    clip: {fileID: 8300000, guid: 85e5a589e365be84a981126b3589b255, type: 3}
+  - id: crouching
+    text: Crouching. The eye cannot see you.
+    clip: {fileID: 8300000, guid: 423dcdfbb95fc1145a193684a774de6b, type: 3}
+  - id: standing
+    text: Standing up.
+    clip: {fileID: 8300000, guid: 31a2e9122fc36904097179f63cba1e1e, type: 3}
+  - id: arrive_chest_nokey
+    text: You are at the chest. Say jump to grab the key.
+    clip: {fileID: 8300000, guid: 0c90cfcc3d71f9640b6b070659b54d64, type: 3}
+  - id: arrive_chest
+    text: You are at the chest.
+    clip: {fileID: 8300000, guid: 5e97f4d944edb0547a1a9851ffe3f5b1, type: 3}
+  - id: arrive_tower
+    text: You are at the tower.
+    clip: {fileID: 8300000, guid: 960f901bca3a2124693d83104ccca116, type: 3}
+  - id: arrive_bridge
+    text: You are on the bridge.
+    clip: {fileID: 8300000, guid: 424c4206b12a0d446a71bce7ce128477, type: 3}
+  - id: arrive_gate_locked
+    text: You are at the gate, but it is locked. You need the key from the chest.
+    clip: {fileID: 8300000, guid: f5524409fde783344bdbe58c18e9d61a, type: 3}
+  - id: key_got
+    text: You grabbed the key! Now go to the gate.
+    clip: {fileID: 8300000, guid: f68dc20cef56ccd44a821f50387ab06e, type: 3}
+  - id: jammed
+    text: You jammed the eye! It is blind for fifteen seconds. Move now.
+    clip: {fileID: 8300000, guid: 89a159daec1eb9947bb01536e50f83de, type: 3}
+  - id: jam_over
+    text: The eye is working again.
+    clip: {fileID: 8300000, guid: 0de04277007de4c45bbb0120dc5090d8, type: 3}
+  - id: seen_2
+    text: You were seen! Back to the start. Two lives left.
+    clip: {fileID: 8300000, guid: fd1d941bdc9d9434fb2a28e4984101e3, type: 3}
+  - id: seen_1
+    text: You were seen! Back to the start. One life left.
+    clip: {fileID: 8300000, guid: 11ae07942a39a1547a5b6af5026884ef, type: 3}
+  - id: won
+    text: You opened the gate and escaped! You win! Say restart to play again, or menu to choose another game.
+    clip: {fileID: 8300000, guid: 01ea52a7dbd6eec4497c2fc105e15c9d, type: 3}
+  - id: lost
+    text: The Sentinel caught you. Game over. Say restart to try again, or menu to choose another game.
+    clip: {fileID: 8300000, guid: 970464b7b2d56b24cac087eedca451a3, type: 3}
+  - id: say_restart
+    text: The round is over. Say restart, or say menu.
+    clip: {fileID: 8300000, guid: 4ffc9f108041976498fb56896029ecc3, type: 3}
+  - id: didnt_catch
+    text: Sorry, I did not catch that.
+    clip: {fileID: 8300000, guid: 74bd50d2d95fdfb4698bbc09d8166405, type: 3}
+  - id: not_command
+    text: That is not a command. Say help to hear the rules.
+    clip: {fileID: 8300000, guid: 534ca9bf531d9d748a87c13567bff81f, type: 3}
+  - id: near_start
+    text: You are near the start.
+    clip: {fileID: 8300000, guid: 4b664c773fcceda4dbfcc7acf6b5ddf5, type: 3}
+  - id: near_chest
+    text: You are near the chest.
+    clip: {fileID: 8300000, guid: 72e846f9d973df547904eee8d79cdba2, type: 3}
+  - id: near_tower
+    text: You are near the tower.
+    clip: {fileID: 8300000, guid: cafee414192a438429e5637f789ef8de, type: 3}
+  - id: near_bridge
+    text: You are near the bridge.
+    clip: {fileID: 8300000, guid: dcb1fb393f0b22a4b8a1c2f050090f49, type: 3}
+  - id: near_gate
+    text: You are near the gate.
+    clip: {fileID: 8300000, guid: f70c3aea910a7dc44bbacfddb7db6c67, type: 3}
+  - id: status_key_yes
+    text: You have the key. Go to the gate.
+    clip: {fileID: 8300000, guid: 9a4a1fcc563ab5e449ed79da82a873f7, type: 3}
+  - id: status_key_no
+    text: You still need the key from the chest.
+    clip: {fileID: 8300000, guid: 1be8fc728c67e9a48a34ab660ad64ce6, type: 3}
+  - id: status_lives_3
+    text: You have three lives.
+    clip: {fileID: 8300000, guid: 5ea314154b578df488d887981f107aef, type: 3}
+  - id: status_lives_2
+    text: You have two lives.
+    clip: {fileID: 8300000, guid: eabed3ee74c373c4abf812c5aa86389e, type: 3}
+  - id: status_lives_1
+    text: You have one life.
+    clip: {fileID: 8300000, guid: 237197c7ba96ad842a2fe5a84b01ce16, type: 3}
+  - id: going_to_menu
+    text: Going back to the menu.
+    clip: {fileID: 8300000, guid: 0aa3676b85464cb41a696b769ca989aa, type: 3}
+  - id: no_mic
+    text: No microphone was found. Connect a microphone and start the game again.
+    clip: {fileID: 8300000, guid: 82705790c86d4274790c0cf922a6eb94, type: 3}
+  - id: mic_changed
+    text: Microphone changed. Hold the space bar and try speaking.
+    clip: {fileID: 8300000, guid: e45f885a3c31de04885d4534775723b1, type: 3}
+  voice: {fileID: 1263360750}
+--- !u!114 &402864161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402864157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0cdda35d1c466248845ee935c009842, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::VoiceGame.VoiceBrain
+  threads: 2
+--- !u!4 &402864162
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402864157}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1263360751}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1263360749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1263360751}
+  - component: {fileID: 1263360750}
+  m_Layer: 0
+  m_Name: Voice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1263360750
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263360749}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 0
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &1263360751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263360749}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 402864162}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1970460205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1970460208}
+  - component: {fileID: 1970460207}
+  - component: {fileID: 1970460206}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1970460206
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970460205}
+  m_Enabled: 1
+--- !u!20 &1970460207
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970460205}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.07, g: 0.09, b: 0.13, a: 1}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1970460208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970460205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1660057539 &9223372036854775807
+SceneRoots:
+  m_ObjectHideFlags: 0
+  m_Roots:
+  - {fileID: 1970460208}
+  - {fileID: 402864162}

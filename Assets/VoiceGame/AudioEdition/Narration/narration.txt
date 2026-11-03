@@ -1,0 +1,88 @@
+menu_welcome|Welcome to Sentinel. Choose how you want to play.
+menu_option1|Option one, Voice Control. You watch the screen and command the hero with your voice. This is for players who cannot use a keyboard or controller.
+menu_option2|Option two, Audio Game. Everything is told through sound, so you can play without seeing the screen. This is for blind players.
+menu_option3|Option three, Settings. Change the volume.
+menu_how|Say one, two, or three. Or press the one, two, or three key.
+menu_start1|Starting Voice Control.
+menu_start2|Starting the Audio Game.
+menu_unclear|Sorry, I did not catch that. Say one, two, three, or repeat.
+settings_title|You are in settings.
+settings_back_how|Say back to return to the menu.
+settings_unclear|Sorry, I did not catch that. Say louder, quieter, or back.
+volume_how|To change the volume, say louder or quieter, or press the up and down arrow keys. You can also say a number, like volume fifty.
+volume_max|That is the loudest setting.
+volume_min|That is the quietest setting.
+volume_10|Volume ten percent.
+volume_20|Volume twenty percent.
+volume_30|Volume thirty percent.
+volume_40|Volume forty percent.
+volume_50|Volume fifty percent.
+volume_60|Volume sixty percent.
+volume_70|Volume seventy percent.
+volume_80|Volume eighty percent.
+volume_90|Volume ninety percent.
+volume_100|Volume one hundred percent.
+intro_welcome|Welcome to the Audio Game. You do not need the screen. Everything you need will be spoken or played as a sound. To skip this introduction, hold the space bar and say skip.
+intro_talk|Here is how to talk to your hero. Hold down the space bar, say a command, then let go. You will hear this sound when the game starts listening.
+intro_talk_off|And this sound when it stops listening.
+intro_mic|If the game does not hear you, press the M key to try another microphone.
+intro_goal|You are trapped in a courtyard, and you must escape. First, go to the chest, and jump to grab the key floating above it. Then go to the gate to get out.
+intro_places|There are four places you can name. The chest, the tower, the bridge, and the gate. You never need to steer. Name a place, and the hero finds the way.
+intro_moves|To move, say run to, or walk to, and then a place. For example, run to the chest. Running is fast, and walking is slow. You can also join commands, like, run to the chest and jump.
+intro_actions|You can also say jump, stop, crouch, and stand up.
+intro_eye|A giant eye called the Sentinel sits on top of the tower. If it sees you moving while it is open, you go back to the start and lose a life. You have three lives.
+intro_crouch|The eye cannot see you while you crouch, even when you move, but crouching is slow. Say crouch, then walk to a place. Running makes you stand up again.
+intro_tower|If you reach the tower, you jam the eye, and it goes blind for fifteen seconds. This only works once each round.
+cues_intro|Now learn the three sounds of the eye. Green, yellow, and red. One of these sounds plays all through the game, so you always know if it is safe to move.
+cue_green|Green means the eye is asleep. You are safe to move. Green sounds like this.
+cue_yellow|Yellow means the eye is opening. You have about two seconds. Say stop, or say crouch. Yellow sounds like this.
+cue_red|Red means the eye is watching. Do not move until the sound changes. Red sounds like this.
+cues_review|Let's review.
+review_green|Green. It is safe to move.
+review_yellow|Yellow. Say stop.
+review_red|Red. Do not move.
+intro_meta|During the game, say help to hear the rules, sounds to hear these sounds again, where am I to hear where you are, or menu to go back to the main menu. To change the volume, say louder or quieter, or press the up and down arrow keys.
+intro_ready|That is everything. When you are ready, hold the space bar and say start.
+waiting_hint|Hold the space bar and say start when you are ready.
+game_go|The game has begun. Your first goal is the chest.
+restart|Starting again. Your first goal is the chest.
+back_to_game|Back to the game.
+run_chest|Running to the chest.
+run_tower|Running to the tower.
+run_bridge|Running to the bridge.
+run_gate|Running to the gate.
+walk_chest|Walking to the chest.
+walk_tower|Walking to the tower.
+walk_bridge|Walking to the bridge.
+walk_gate|Walking to the gate.
+stopping|Stopping.
+crouching|Crouching. The eye cannot see you.
+standing|Standing up.
+arrive_chest_nokey|You are at the chest. Say jump to grab the key.
+arrive_chest|You are at the chest.
+arrive_tower|You are at the tower.
+arrive_bridge|You are on the bridge.
+arrive_gate_locked|You are at the gate, but it is locked. You need the key from the chest.
+key_got|You grabbed the key! Now go to the gate.
+jammed|You jammed the eye! It is blind for fifteen seconds. Move now.
+jam_over|The eye is working again.
+seen_2|You were seen! Back to the start. Two lives left.
+seen_1|You were seen! Back to the start. One life left.
+won|You opened the gate and escaped! You win! Say restart to play again, or menu to choose another game.
+lost|The Sentinel caught you. Game over. Say restart to try again, or menu to choose another game.
+say_restart|The round is over. Say restart, or say menu.
+didnt_catch|Sorry, I did not catch that.
+not_command|That is not a command. Say help to hear the rules.
+near_start|You are near the start.
+near_chest|You are near the chest.
+near_tower|You are near the tower.
+near_bridge|You are near the bridge.
+near_gate|You are near the gate.
+status_key_yes|You have the key. Go to the gate.
+status_key_no|You still need the key from the chest.
+status_lives_3|You have three lives.
+status_lives_2|You have two lives.
+status_lives_1|You have one life.
+going_to_menu|Going back to the menu.
+no_mic|No microphone was found. Connect a microphone and start the game again.
+mic_changed|Microphone changed. Hold the space bar and try speaking.
